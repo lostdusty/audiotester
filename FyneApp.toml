@@ -1,0 +1,8 @@
+Website = "https://github.com/princessmortix/audiotester"
+
+[Details]
+  Icon = "icon.png"
+  Name = "Audio Tester"
+  ID = "link.princessmortix.audiotester"
+  Version = "1.0"
+  Build = 5
