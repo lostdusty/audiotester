@@ -32,7 +32,7 @@ func main() {
 	win.Resize(fyne.Size{Width: 800, Height: 400})
 	win.SetIcon(fyne.NewStaticResource("icon", windowIcon))
 
-	titleTextWelcome := widget.NewRichTextFromMarkdown("# Headphones tester\nSmall application created to test headphones or other audio equipament before buying, in-store.")
+	titleTextWelcome := widget.NewRichTextFromMarkdown("# Headphones tester\nSmall application created to test headphones or other audio equipment before buying, in-store.")
 	titleTextWelcome.Wrapping = fyne.TextWrapWord
 
 	btnLeftAudio := widget.NewButtonWithIcon("Test left channel", theme.NewThemedResource(resourceLeftSvg), nil)
